@@ -1,0 +1,44 @@
+
+#Comments {
+    margin-left:25%;
+    margin-right:25%;
+    clear:right;
+    max-width:800px;
+}
+
+.CommentFrame {
+    border-style:solid;
+    max-width:800px;
+    margin-top:50px;
+    background-color:white;
+}
+.CommentTime {
+
+    float:left;
+    clear:right;
+    margin-left:100px;
+    font-weight:lighter
+}
+.CommentUser {
+    margin-left:5px;
+    float:left;
+    font-weight:bold;
+}
+.CommentText {
+    margin-left:5px;
+    clear:left;
+}
+
+#MakeCommentDiv {
+    margin-left:25%;
+    margin-right:25%;
+}
+.writebox {
+
+    width:400px;
+    height:150px;
+}
+#TextLabel {
+    margin-left:25%;
+    margin-top:100px;
+}

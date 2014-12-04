@@ -10,6 +10,7 @@ class HTMLView {
 		     <head>
 		     	<title>LogIn</title>
 		     	<meta charset='utf-8'>
+		     	<link href='Style.css' rel='stylesheet' />
 		     </head>
 		     <body>
 		     	$body

@@ -12,6 +12,18 @@ class ThreadRepository extends Repository{
 			
 	}
 
+	public function addThread($name, $threadID){
+
+		$db = $this->connection();
+
+		$sql = "INSERT INTO $this->dbTable (Name, ThreadID) VALUES (?, ?)";
+		$params = array($name, $threadID);
+
+		$query = $db->prepare($sql);
+		$query->execute($params);
+
+	}
+
 	public function toList(){
 
 	
